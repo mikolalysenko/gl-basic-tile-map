@@ -1,0 +1,38 @@
+{
+  "name": "gl-basic-tile-map",
+  "version": "0.0.0",
+  "description": "Draws 2D tile maps using WebGL",
+  "main": "tilemap.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "a-big-triangle": "~0.0.0",
+    "gl-matrix": "~2.0.0",
+    "gl-shader": "~0.0.6",
+    "gl-texture2d": "~0.1.4"
+  },
+  "devDependencies": {
+    "gl-now": "~0.0.4",
+    "isabella-texture-pack": "~0.0.1",
+    "ndarray": "~1.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/gl-basic-tile-map.git"
+  },
+  "keywords": [
+    "tile",
+    "map",
+    "webgl",
+    "2d"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/gl-basic-tile-map/issues"
+  }
+}
