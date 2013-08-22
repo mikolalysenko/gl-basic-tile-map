@@ -17,7 +17,7 @@ shell.on("gl-init", function() {
   var tileSheet = createTexture(gl, tileMap)
   tileMap = createTileMap(gl, tileSheet, tiles, [16,16])
   
-  //Randomize all the tiles every minute
+  //Randomize all the tiles every second
   setInterval(function() {
     for(var i=0; i<128; ++i) {
       for(var j=0; j<128; ++j) {
